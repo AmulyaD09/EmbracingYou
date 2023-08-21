@@ -1,5 +1,5 @@
 function redirectToBlog() {
-  window.open("https://medium.com/", "_blank");
+  // window.open("");
 }
 
 var pJS = function(tag_id, params){
