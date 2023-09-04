@@ -1,5 +1,5 @@
 function redirectToBlog() {
-  // window.open("");
+  window.open("https://amulyad09.github.io/StickyNotes/", "_blank");
 }
 
 var pJS = function(tag_id, params){

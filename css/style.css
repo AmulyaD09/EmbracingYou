@@ -14,96 +14,9 @@ input,select{vertical-align:middle}
 li{list-style:none}
 
 
-/* .heading {
-  cursor: grab;
-  font-size: 46px;
-  color: #272627;
-  padding: 10px;
-  pointer-events: auto; 
-  position: absolute;
-  top: 42%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
-
-/* .heading {
-  cursor: grab;
-  font-size: 46px;
-  color: #272627;
-  padding: 10px;
-  pointer-events: auto; 
-  position: absolute;
-  top: 42%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  animation: hoverMovement 0.2s ease-in-out alternate;
-}
-
-@keyframes hoverMovement {
-  0% {
-    transform: translate(-50%, -50%);
-  }
-  100% {
-    transform: translate(-50%, -50%) translateX(5px);
-  }
-} */
-
-/* .heading {
-  cursor: grab;
-  font-size: 46px;
-  color: #272627;
-  padding: 10px;
-  pointer-events: auto; 
-  position: absolute;
-  top: 42%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  animation: dance 2s ease-in-out infinite;
-}
-
-@keyframes dance {
-  0%, 100% {
-    transform: translate(-50%, -50%);
-  }
-  20%, 80% {
-    transform: translate(-50%, -50%) translateY(-10px);
-  }
-  40%, 60% {
-    transform: translate(-50%, -50%) translateY(10px);
-  }
-} */
-
-/* .heading {
-  cursor: grab;
-  font-size: 46px;
-  color: #272627;
-  padding: 10px;
-  pointer-events: auto; 
-  position: absolute;
-  top: 42%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  animation: zigZag 2s ease-in-out infinite;
-}
-
-@keyframes zigZag {
-  0%, 100% {
-    transform: translate(-50%, -50%);
-  }
-  25% {
-    transform: translate(-50%, -50%) translate(-10px, -10px);
-  }
-  50% {
-    transform: translate(-50%, -50%) translate(10px, 10px);
-  }
-  75% {
-    transform: translate(-50%, -50%) translate(-10px, -10px);
-  }
-} */
-
 .heading {
   cursor: grab;
-  font-size: 46px;
+  font-size: 70px;
   color: #272627;
   padding: 10px;
   pointer-events: auto; 
@@ -118,8 +31,15 @@ li{list-style:none}
   transform: translate(-50%, -50%) translate(10px, -10px);
 }
 
-
-
+.note {
+  font-size: 21px;
+  color:  #272627;
+  padding: 10px;
+  pointer-events: auto; 
+  position: absolute;
+  top: 46%;
+  left: 36%;
+}
 
 html,body{ 
 	width:100%;
